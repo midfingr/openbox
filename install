@@ -6,7 +6,7 @@ sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
 
-sudo pacman -S openbox pcmanfm lxdm lxappearance-obconf python2-xdg oblogout plank leafpad file-roller ntfs-3g dosfstools gvfs gnome-themes-standard firefox ristretto xdg-user-dirs xfce4-power-manager p7zip unzip zip unrar gtk-engine-murrine numlockx --noconfirm
+sudo pacman -S openbox pcmanfm lxdm lxappearance-obconf python2-xdg oblogout plank leafpad file-roller ntfs-3g dosfstools gvfs gnome-themes-standard firefox ristretto xdg-user-dirs xcompmgr xfce4-power-manager p7zip unzip zip unrar gtk-engine-murrine numlockx --noconfirm
 xdg-user-dirs-update
 sudo updatedb
 mkdir -p ~/.config/openbox
