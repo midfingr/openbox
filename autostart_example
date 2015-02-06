@@ -17,7 +17,7 @@
 #xfce-mcs-manager &
 (sleep 3s && synapse -s) &
 (sleep 3s && xfce4-power-manager) &
-xfce4-clipman &
+(sleep 3s && clipit) &
 xcompmgr &
 lxpanel &
 plank &
